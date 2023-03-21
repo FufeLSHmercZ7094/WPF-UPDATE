@@ -1,0 +1,18 @@
+﻿<Window x:Class="PRAKTIKA.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PRAKTIKA"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="BASDANGRID2" Margin="0,0,0,282" SelectionChanged="BASDAN_sel"/>
+        <ComboBox x:Name="GridCombobox2" HorizontalAlignment="Left" Margin="216,180,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="GridCombobox2_SelectionChanged"/>
+        <TextBox x:Name="Txtbox2" HorizontalAlignment="Left" Margin="10,289,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="264" Height="58"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="0,217,0,0" VerticalAlignment="Top" Height="57" Width="790" Background="#FFFF00AF" Click="Button_Click"/>
+        <Button Content="Приход" HorizontalAlignment="Left" Margin="305,289,0,0" VerticalAlignment="Top" Height="58" Width="180" Background="#FF00FFE3" Click="Button_Click_1"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Margin="0,357,0,0" VerticalAlignment="Top" Height="33" Width="790" Click="Button_Click_2"/>
+        <Button Content="Изменить" HorizontalAlignment="Left" Margin="517,289,0,0" VerticalAlignment="Top" Height="58" Width="184" Background="#FF5FFF00" Click="Button_Click_3"/>
+    </Grid>
+</Window>
